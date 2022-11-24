@@ -1,0 +1,23 @@
+{
+  "name": "0.0.1",
+  "version": "0.0.1",
+  "description": "Ejemplo API json server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start":"json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adria-vidal/avv-json-api-urbalab.git"
+  },
+  "author": "Adria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adria-vidal/avv-json-api-urbalab/issues"
+  },
+  "homepage": "https://github.com/adria-vidal/avv-json-api-urbalab#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
